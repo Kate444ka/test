@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Test</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <div class="images">
+                    <img class="img" src="img/1.jpg" alt="" />
+                    <img class="img" src="img/2.jfif" alt="" />
+                    <img class="img" src="img/3.jfif" alt="" />
+                </div>
+                <h1 class="title">Хто засновник бренду Mary Kay?</h1>
+                <div class="variants">
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y1"
+                        />
+                        Мері Кей Еш
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y2"
+                        />
+                        Ілон Маск
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y3"
+                        />
+                        Девид Холл
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y4"
+                        />
+                        Еріх Марія Ремарк
+                    </div>
+                </div>
+            </div>
+            <button type="btn" id="btn" class="btn">Відповісти</button>
+            <div class="right_var hidden" id="right_var">
+                Правильна відповідь
+            </div>
+            <div class="wrong_var hidden" id="wrong_var">
+                <div class="wrong" id="wrong">Неправильна відповідь</div>
+                <button id="btn1">Подивитись відповідь</button>
+            </div>
+            <div id="answer" class="hidden">Мері Кей Еш</div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
